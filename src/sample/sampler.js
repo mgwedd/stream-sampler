@@ -15,7 +15,7 @@ class ReservoirSampler {
     this.reservoir = []
     this.i = 0
     this.k = opts.k
-    this.logStream = logStream
+    this.logStream = opts.logStream
   }
 
   getRandInt( max ) {
