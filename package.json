@@ -1,0 +1,29 @@
+{
+  "name": "stream-sampler",
+  "version": "1.0.0",
+  "description": "Experiments in streaming data sampling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-stream" : "node src/stream/streamer",
+    "start-sample" : "node src/sample/sampler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgwedd/stream-sampler.git"
+  },
+  "keywords": [
+    "stream",
+    "streaming",
+    "data",
+    "streaming",
+    "data",
+    "iot"
+  ],
+  "author": "Michael Wedd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgwedd/stream-sampler/issues"
+  },
+  "homepage": "https://github.com/mgwedd/stream-sampler#readme"
+}

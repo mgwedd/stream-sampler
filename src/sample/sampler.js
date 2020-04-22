@@ -3,7 +3,7 @@ const fs = require( 'fs' )
 
 const port = 3214
 
-const logStream = fs.createWriteStream(__dirname + '/log.txt')
+const logStream = fs.createWriteStream(__dirname + '/log/log.txt')
 
 const sampler = net.createConnection({ port }, () => {
   console.log( `SAMPLER: Connected to stream simulator on port ${port}`)
