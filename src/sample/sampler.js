@@ -51,7 +51,7 @@ class ReservoirSampler {
 }
 
 const reservoirSampler = new ReservoirSampler( {
-  k : 10,
+  k : 10, // k = 10 for now just to make the reservoir human readable at a glance.
   logStream,
 } )
 
